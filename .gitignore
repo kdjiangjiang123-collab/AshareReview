@@ -1,0 +1,26 @@
+# === 敏感文件（含API Key，绝对不能上传） ===
+.env
+
+# === 本地数据库（你的交易记录） ===
+data/*.db
+data/*.sqlite
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# === PyInstaller 打包产物 ===
+build/
+dist/
+*.spec
+
+# === 系统垃圾 ===
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# === IDE ===
+.vscode/
+.idea/
